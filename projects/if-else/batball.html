@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+  <title>Bat Ball project</title>
+</head>
+<body>
+  <div class="container-fluid mt-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <h1 class="text-center" >Bat Ball Stump Game</h1>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-4 mt-4">
+        <button onclick="batfun()" class="btn btn-light border ms-5 fw-bold border-dark p-3">Bat</button>
+        <button onclick="ballfun()" class="btn btn-light border ms-2 fw-bold border-dark p-3">Ball</button>
+        <button onclick="stumpfun()" class="btn btn-light border ms-2 fw-bold border-dark p-3">Stump</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="resultpopup" class="container-fluid mt-5 ">
+    <div class="row justify-content-center p-2">
+      <div class="col-lg-3 border border-secondary">
+        <h1 class="text-center">Result</h1>
+        <h3 id="result" class="text-center"></h3>
+        <p id="choiceslog" class="text-center" ></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="batball.js"></script>
+</body>
+</html>
